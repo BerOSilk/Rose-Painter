@@ -32,7 +32,6 @@ function set(){
     cont = canv.getContext('2d');
     width = window.innerWidth;
     height = window.innerHeight;
-    cont.clearRect(0, 0, canv.width, canv.height);
     n = (document.getElementById('n').value);
     d = (document.getElementById('d').value);
     canv.width = width;
